@@ -30,6 +30,8 @@ luci-proto-3g
 luci-proto-ipv6
 luci-proto-ppp
 luci-proto-relay
+luci2-ui-base
+luci2-rpc-rrdns
 
 # Common extra
 #6in4

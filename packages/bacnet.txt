@@ -53,15 +53,17 @@ arp-scan
 #vnstat
 #ethtool
 #usbutils
+acme
+#addrwatch
 
 #Bacnet
 luci-app-bacnet
 bacnet-stack-bip
 bacnet-stack-bip6
 bacnet-stack-ethernet
-bacnet-stack-mstp
+#bacnet-stack-mstp
 
 #KNX
 luci-app-knxd
-luci-app-linknx_gen
+#luci-app-linknx_gen
 #luci-app-linknx_statistics

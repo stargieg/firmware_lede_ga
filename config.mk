@@ -15,4 +15,4 @@ TARGET=ramips_mt76x8
 #TARGET=x86_64
 PACKAGES_LIST_DEFAULT=bacnet
 LEDE_SRC=git://git.lede-project.org/source.git
-LEDE_COMMIT=7d905f1e95539f9bc43fad4f2892d916ced546cb
+LEDE_COMMIT=699c6fcc314225f79156a26db418e15bbc6bf10f

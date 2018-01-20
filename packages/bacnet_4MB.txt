@@ -1,4 +1,5 @@
 # Common
+-ppp-mod-pppoe
 mdnsd
 ip
 automation-defaults
@@ -6,31 +7,34 @@ automation-defaults
 # GUI-basics
 uhttpd
 uhttpd-mod-ubus
-px5g-standalone
+#px5g-mbedtls
+#px5g-standalone
 #libustream-wolfssl
-libustream-openssl
+#libustream-openssl
 #libustream-mbedtls
-luci-theme-bootstrap
-luci-i18n-base-de
-luci-app-firewall
-luci-i18n-firewall-de
-luci-app-ntpc
-luci-i18n-ntpc-de
+#luci-theme-bootstrap
+#luci-i18n-base-de
+#luci-app-firewall
+#luci-i18n-firewall-de
+#luci-app-ntpc
+#luci-i18n-ntpc-de
 #luci-app-openvpn
 #luci-i18n-openvpn-de
-luci-app-statistics
-luci-i18n-statistics-de
+#luci-app-statistics
+#luci-i18n-statistics-de
 #luci-app-wol
 #luci-i18n-wol-de
-luci-proto-3g
-luci-proto-ipv6
-luci-proto-ppp
-luci-proto-relay
+#luci-proto-3g
+#luci-proto-ipv6
+#luci-proto-ppp
+#luci-proto-relay
+luci2-ui-base
+luci2-rpc-rrdns
 
 # Common extra
 #6in4
 #chat
-#comgt
+comgt
 #etherwake
 #fdisk
 #iftop
@@ -47,57 +51,8 @@ luci-proto-relay
 #usbutils
 
 #Bacnet
-## Common
-mdnsd
-ip
-automation-defaults
-
-# GUI-basics
-uhttpd
-uhttpd-mod-ubus
-px5g-standalone
-#libustream-wolfssl
-libustream-openssl
-#libustream-mbedtls
-luci-theme-bootstrap
-luci-i18n-base-de
-luci-app-firewall
-luci-i18n-firewall-de
-luci-app-ntpc
-luci-i18n-ntpc-de
-#luci-app-openvpn
-#luci-i18n-openvpn-de
-luci-app-statistics
-luci-i18n-statistics-de
-#luci-app-wol
-#luci-i18n-wol-de
-luci-proto-3g
-luci-proto-ipv6
-luci-proto-ppp
-luci-proto-relay
-
-# Common extra
-#6in4
-#chat
-#comgt
-#etherwake
-#fdisk
-#iftop
-#ntpclient
-#openvpn-openssl
-#relayd
-#resolveip
-#tcpdump-mini
-#mtr
-#iperf
-#tmux
-#vnstat
-#ethtool
-#usbutils
-
-#Bacnet
-luci-app-bacnet
-bacnet-stack-bip
-bacnet-stack-bip6
+#luci-app-bacnet
+#bacnet-stack-bip
+#bacnet-stack-bip6
 #bacnet-stack-ethernet
 #bacnet-stack-mstp

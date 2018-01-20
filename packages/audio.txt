@@ -9,11 +9,12 @@ automation-defaults
 # GUI-basics
 rpcd-mod-rpcsys
 uhttpd
+uhttpd-mod-lua
 uhttpd-mod-ubus
 px5g-standalone
-#libustream-wolfssl
-libustream-openssl
-#libustream-mbedtls
+libustream-mbedtls
+
+luci-mod-admin-full
 luci-theme-bootstrap
 luci-i18n-base-de
 luci-app-firewall
@@ -26,17 +27,23 @@ luci-app-statistics
 luci-i18n-statistics-de
 #luci-app-wol
 #luci-i18n-wol-de
+luci-app-attendedsysupgrade
+luci-app-uhttpd
+luci-app-acme
 luci-proto-3g
+luci-proto-ncm
 luci-proto-ipv6
 luci-proto-ppp
 luci-proto-relay
-#luci2-ui-base
-#luci2-rpc-rrdns
+luci2-ui-base
+luci2-rpc-rrdns
 
 # Common extra
+auc
 #6in4
 #chat
-#comgt
+comgt
+kmod-usb-net-huawei-cdc-ncm
 curl
 #etherwake
 #fdisk
@@ -53,17 +60,10 @@ arp-scan
 #vnstat
 #ethtool
 #usbutils
+usb-modeswitch
+wwan
 acme
+ca-bundle
+ca-certificates
+
 #addrwatch
-
-#Bacnet
-luci-app-bacnet
-bacnet-stack-bip
-bacnet-stack-bip6
-bacnet-stack-ethernet
-#bacnet-stack-mstp
-
-#KNX
-luci-app-knxd
-#luci-app-linknx_gen
-#luci-app-linknx_statistics

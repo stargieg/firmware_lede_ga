@@ -92,6 +92,7 @@ endif
 # lede config
 $(LEDE_SRC_DIR)/.config: .stamp-patched $(TARGET_CONFIG) .stamp-build_rev lede-clean-tmp
 	cat $(TARGET_CONFIG) >$(LEDE_SRC_DIR)/.config
+	echo "CONFIG_DOWNLOAD_FOLDER=\"$(FW_DIR)/dl\"" >>$(LEDE_SRC_DIR)/.config
 	sed -i "/^CONFIG_VERSION_REPO=/ s/\"$$/\/$(FW_REVISION)\"/" $(LEDE_SRC_DIR)/.config
 	$(UMASK); \
 	  $(MAKE) -C $(LEDE_SRC_DIR) defconfig
